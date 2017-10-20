@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+
+/*------------------------------------------------------------------
+[Theme Color Stylesheet]
+
+Project:	Advisor
+
+-------------------------------------------------------------------*/
+
+
+
+
+
+/* ----------------------------------------------------------------
+    common classes
+-----------------------------------------------------------------*/
+a { color: #00A2B6;}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{ color:#00A2B6;}
+
+.color-default{ color:#00A2B6 !important;}
+.btn-link { color: #00A2B6;}
+#header .main-nav li a:hover, #header .main-nav li.active a{ border-color:#00A2B6}
+#header .search-container .search button{ color:#00A2B6;}
+#header .search-container .search input[type="text"]:focus{ border-color:#00A2B6;}
+.no-touch .cd-slider-nav a:hover {background-color: #00A2B6;}
+.cd-slider-nav .cd-marker {background-color: #00A2B6;}
+#footer a:hover{ color:#00A2B6;}
+.btn-primary { background-color: #00A2B6;}
+.owl-dots .owl-dot.active{background-color: #00A2B6;}
+.counter span{ color:#00A2B6;}
+.service-box{ border-color:#00A2B6;}
+.service-box i{ color:#00A2B6;}
+.toggle .toggle-heading a i{ color:#00A2B6; border-color:#00A2B6;}
+.meet-advisors-content h3{ color:#00A2B6;}
+.selectboxit-list > .selectboxit-focus > .selectboxit-option-anchor{background-color: #00A2B6;}
+#header .main-nav li.dropdown ul.dropdown-menu li a:hover, #header .main-nav li.dropdown ul.dropdown-menu li.active a{ background-color:#00A2B6;}
+.cd-slider-nav li .slide-number{ background-color:#00A2B6;}
+.cd-slider-nav li.selected .slide-number, .cd-slider-nav li:hover .slide-number{ color:#00A2B6;}
+#header.header-two .header-contact-widget li i{ color:#00A2B6;}
+#header.header-two .header-contact-widget li p a:hover{ color:#00A2B6;}
+.breadcrumbs li a:hover{ color:#00A2B6;}
+.blog-item .blog-content h3 a:hover{ color:#00A2B6;}
+.blog-item .blog-meta li a:hover{color:#00A2B6;}
+.categories li a:hover{color:#00A2B6;}
+.tags li a:hover {color:#00A2B6; border-color:#00A2B6;}
+.popular-post h4 a:hover {color:#00A2B6;}
+.search {background-color: #00A2B6;}
+.search .search-icon:hover i {color:#00A2B6;}
+.blog-item-classic .blog-content a.btn-link, .blog-item .blog-content a.btn-link{border-color:#00A2B6;}
+.blog-item-classic .blog-content h3 a:hover{ color:#00A2B6;}
+.news-paggination li a:hover{ color:#00A2B6;}
+.company-history li .year{ color:#00A2B6}
+.company-history li .history-content:before{ background-color:#00A2B6}
+.team-member h4{ color:#00A2B6}
+.list-bullets li:before{ background:#00A2B6;}
+.left-nav li a:hover, .left-nav li a.active{ border-color:#00A2B6;}
+.help-widget{ background-color:#00A2B6;}
+.product-description h3 a:hover{ color:#00A2B6;}
+.product-description .product-cart-btn:hover, .product-description .product-detail-btn:hover{ color:#00A2B6;}
+.product-thumb label{ background:#00A2B6;}
+.ui-slider-horizontal .ui-slider-range{ background:#00A2B6;}
+.top-products .top-products-detail i{ color:#00A2B6;}
+.top-products .top-products-detail h4 a:hover{ color:#00A2B6;}
+.ratings i{ color:#00A2B6;}
+.resp-vtabs li.resp-tab-active{color:#00A2B6;}
+.resp-tab-active { background:#00A2B6;}
+.cart-total .amount{color:#00A2B6;}
+.banner-btn.colored{ 
+    transition: all 0s ease 0s;
+    background-color: hsla(0,0%,100%,.1);
+    color: #fff;
+    fill: #fff;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.map-with-address-widget a:hover{ color:#00A2B6;}
+blockquote{ border-color:#00A2B6;}
+.cases-filter-nav li a:hover, .cases-filter-nav li a.selected{ background:#00A2B6;}
+.product-detail-slider .rslides_tabs li.rslides_here a{background:#00A2B6}
+.review-form-close:hover{ background:#00A2B6;}
+.btn.btn-dark:hover{ background:#00A2B6;}
+
+.btn-primary:hover  {background-color: #047f19;}
+a:hover, a:focus, .btn-link:hover, .btn-link:focus { color:#047f19;}
+
+.icon-img-1{ background-image:url("../images/color-scheme/green/icon1.png");}
+.icon-img-2{ background-image:url("../images/color-scheme/green/icon2.png");}
+.icon-img-3{ background-image:url("../images/color-scheme/green/icon3.png");}
+.icon-img-4{ background-image:url("../images/color-scheme/green/icon4.png");}
+.icon-img-5{ background-image:url("../images/color-scheme/green/icon5.png");}
+.icon-img-6{ background-image:url("../images/color-scheme/green/icon6.png");}
+.icon-img-7{ background-image:url("../images/color-scheme/green/icon7.png");}
+.icon-img-8{ background-image:url("../images/color-scheme/green/icon8.png");}
+.icon-img-9{ background-image:url("../images/color-scheme/green/icon9.png");}
+
+#footer .usefull-links-widget li a:hover{ background-image:url("../images/color-scheme/green/dot-h.png")}
+aside .testimonial-content{ background-image:url("../images/color-scheme/green/testimonial-pointer2.png")}
+
+.highlighted-sec li:nth-child(1n+1) .text-box{ background:#00A2B6;}
+.highlighted-sec li:nth-child(2n+2) .text-box{ background:#0dab28;}
+.highlighted-sec li:nth-child(3n+3) .text-box{ background:#0fb52b;}
+.highlighted-sec li:nth-child(4n+4) .text-box{ background:#11c02f;}
+.highlighted-sec li:nth-child(5n+5) .text-box{ background:#13c932;}
+.highlighted-sec li:nth-child(6n+6) .text-box{ background:#0fd330;}
+
+
+.services.highlighted .owl-item:nth-child(3n+1) .service-box{ background:#00A2B6;}
+.services.highlighted .owl-item:nth-child(3n+2) .service-box{ background:#068e1d;}
+.services.highlighted .owl-item:nth-child(3n+3) .service-box{ background:#07811c;}
+
+
+.cases-item figcaption{ background:rgba(9,162,35,0.80);}
+
+
+#header .top-bar:after, #header .top-bar{ background:#313131;}
+#header .top-bar:before, #header .top-bar p, #header .top-bar p:after{ background:#222222;}
+#header.header-two .main-nav{ background:#313131}
+.smallHeader.active #header.header-two{ background:#313131 !important;}
